@@ -1,0 +1,334 @@
+@charset "utf-8";
+/*
+ * Copyright 2007 ClanTemplates.com 
+ * Glock47 a free template by Dream at ClanTemplates.com
+ * No part of this file may be redistributed without written permission
+ * Coded by <opserty@gmail.com> 
+ */
+body {
+	color:#FFFFFF;
+	margin:0;
+	padding:0;
+	background:#141414 url('images/body_bg.gif') top left repeat;
+	font-family: 'Trebuchet MS', Arial, Verdana, Helvetica, sans-serif;
+	font-size:12px;
+}
+a, a:visited, img
+{
+	border: 0px;
+}
+.nofloat { float: none; }
+.inner img {float:left;} 
+
+#outer {background: transparent url('images/wrapper_bg.gif') top center repeat-x;}
+	#wrapper 
+	{
+		
+		width:990px;
+		margin: 0 auto;
+		background:#FFFFFF;
+	}
+		/*===================================*\
+		 * Header Area
+		\*===================================*/
+		#wrapper #header 
+		{
+			background:#202020 url('images/header_bg.gif') center center repeat-x;
+			height:80px;
+			width:990px;
+		}
+			#wrapper #logo 
+			{
+				background:#202020 url('images/logo.gif') top left no-repeat;
+				float:left;
+				height:80px;
+				width:515px;
+				
+			}
+				#logo h1 
+				{
+					text-indent:-1000em;
+					
+				}
+			#wrapper #login 
+			{
+				background:#202020 url('images/login_bg.gif') center center no-repeat;
+				height:55px;
+				width:230px;
+				float:right;
+				margin:6px 3px 0 0;
+				padding:5px 7px;
+			}
+				#login .text-inp 
+				{
+					background:#FFFFFF url('images/text_input_bg.gif') center center no-repeat;
+					height:17px;
+					border:none;
+					font-size:10px;
+					font-family: 'Trebuchet MS', Arial, Verdana, Helvetica, sans-serif;
+					margin-top:2px;
+					padding:4px 0 0 8px;
+					float:left;
+					width:140px;		
+				}
+				#login .button 
+				{
+					margin: 0px 15px 0px 0px;
+					float:right;
+					padding:0;
+					border:none;
+				}
+				#login form
+				{
+					margin: 0px;
+					padding: 0px;
+				}
+		/*===================================*\
+		 * Navigation Bar
+		\*===================================*/
+		#wrapper #nav 
+		{
+			background: #1B2C35 url('images/nav_bg.gif') center center no-repeat;
+			height:54px;
+			width:990px;
+		}
+			#wrapper #nav ul 
+			{
+				width:909px;
+				list-style:none;
+				margin:0 auto;
+				padding:0;
+			}
+				#wrapper #nav li 
+				{
+					text-align:center;
+					float:left;
+					
+				}
+					#wrapper #nav li a 
+					{
+						color:#FFFFFF;
+						text-decoration:none;
+						display:block;
+						height:34px;
+						width:101px;
+						padding-top:20px;
+					}
+						#wrapper #nav li a:hover 
+						{
+							background:#1B2C35 url('images/nav_over.gif') top center no-repeat;
+							text-decoration:underline;
+						}
+		#wrapper #banner {
+			margin: 0 auto;
+			width: 984px;
+			height: 228px;
+			background: url('images/banner.gif');
+			clear: both;
+			overflow: hidden;
+		}
+		/*===================================*\
+		* Main Content Area
+		\*===================================*/
+		#wrapper #content 
+		{
+			margin:0 3px;
+		}
+			#wrapper #content #left, 
+			#wrapper #content #right, 
+			#wrapper #content #middle  
+			{
+				float:left;
+				width:228px;
+				margin:0 auto;
+			}
+				#content #left h2, #content #right h2 
+				{	
+					width:228px;
+					height:27px;
+					background:#18316A url('images/side_h2_bg.gif') center center no-repeat;
+					color:#BDD2F1;
+					font-size:12px;
+					margin:5px 0 0 0;
+					padding:18px 0 0 0;
+					text-indent:15px;
+				}
+					/*===================================*\
+					 * Side content boxes 
+					\*===================================*/
+					.cont 
+					{	
+						width:228px;
+						background-color:#193471;
+						margin:0 auto;
+						padding:0 0 2px 0;
+						color:#18326D;
+						
+					}
+					* html .inner {
+						clear:both;
+						margin: 0px;
+						padding: 0px;
+					}
+						.inner 
+						{
+							width:220px;
+							margin: 0px auto;
+							background:#FFFFFF url('images/side_cont_bg.gif') repeat-y left center;
+							padding: 0px;
+							overflow: hidden;
+							clear: both;
+						}
+					.inner p {
+						margin: 4px;
+						padding: 0px 5px;
+					}
+					.inner img
+					{
+						clear:	both;
+					}
+					* html #left .inner p, * html #right .inner p {width:200px;}
+					.cont a 
+					{
+						color:#18326D;
+					}
+					.cont a:hover 
+					{
+						text-decoration:none;
+					}
+					.cont ul 
+					{
+						clear: left;
+						margin-top:0; 
+						margin-bottom:0;
+					}
+					.cont .match 
+					{
+						margin: 0 0 0 2px;
+						list-style:none;
+						padding:0;
+					}
+						.match li 
+						{
+							background-color:#e6ebf7;
+							margin:4px auto 0 auto;
+							padding:2px 0;
+							width:218px;
+							display: block;
+							font-size:11px;
+							text-indent:10px;
+							overflow: hidden;
+						}
+						/******************
+						 * CUSTOM MATCH LIST STYLES 
+						 ******************/
+						.match *
+						{
+							display:block;
+							clear: none;
+							float: left;
+						}
+						.match * a, .match * a:visited
+						{
+							border: 0px;
+							width: 100%;
+							text-align: center;
+						}
+						.match .team 
+						{
+							width:75px;
+							overflow:hidden;
+							display:table-cell;
+						}
+						.match .score 
+						{
+							width:50px;
+							text-align:center;
+						}
+						.match .won, .match .lost, .match .result
+						{
+							width:70px;
+							text-align:right;
+							display:table-cell;
+							font-weight:bold;
+						}
+						.match .won 
+						{
+							color:#326d18;
+						}
+						.match .lost 
+						{
+							color:#850009;
+						}
+						.match .result 
+						{
+							font-weight:normal
+						}
+			/*===================================*\
+			* Middle Content Column
+			\*===================================*/
+			#wrapper #content #middle 
+			{
+				width:518px;
+				margin: 0 4px 5px 4px;
+			}
+				#content #middle h2 
+				{
+					width:519px;
+					height:27px;
+					background:#404040 url('images/middle_h2_bg.gif') center center no-repeat;
+					color:#FFFFFF;
+					font-size:12px;
+					margin:5px 0 0 0;
+					padding:18px 0 0 0;
+					text-indent:15px;
+				}
+					#middle .main 
+					{
+						width:513px;
+						background-color:#454545;
+						color:#454545;
+						padding:3px;
+					}
+						#middle .inner 
+						{
+							width:513px;
+							background:#FFFFFD url('images/main_cont_bg.gif') repeat-y center center;
+						}
+						.main h3 {
+							width:511px;
+							background-color:#e6ebf7;
+							margin:3px auto;
+							color:#414141;
+							font-size:12px;
+							padding:3px 0;
+							text-indent:10px;
+						}
+						.main p 
+						{
+							margin-left:10px;
+							margin-right:10px;
+							line-height:125%;
+						}
+		#wrapper #footer
+		{
+			clear:left;
+			background: #214595 url('images/footer_bg.gif') center center no-repeat;
+			width:984px;
+			margin:10px auto 0 auto;
+			height:57px;
+		}
+		#footer a, #footer a:link,  #footer a:visited {color:#FFFFFF;}
+		#footer a:hover { text-decoration:none;}
+		
+			#wrapper #footer #credits 
+			{
+				float:left;
+				margin:20px 0 0 20px;
+			}
+			#wrapper #footer #copyright 
+			{
+				float:right;
+				margin:20px 20px 0 0;
+			}
+
